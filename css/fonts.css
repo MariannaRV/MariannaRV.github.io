@@ -1,0 +1,29 @@
+
+@font-face {
+	font-family: "Verdana";
+	src: url("../fonts/Verdana/verdana.eot");
+	src: url("../fonts/Verdana/verdana.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Verdana/verdana.eot.woff") format("woff"),
+			 url("../fonts/Verdana/verdana.eot.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Verdanab";
+	src: url("../fonts/Verdanab/verdanab.eot");
+	src: url("../fonts/Verdanab/verdanab.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/Verdanab/verdanab.eot.woff") format("woff"),
+			 url("../fonts/Verdanab/verdanab.eot.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "ariblk";
+	src: url("../fonts/ariblk/ariblk.eot");
+	src: url("../fonts/ariblk/ariblk.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/ariblk/ariblk.eot.woff") format("woff"),
+			 url("../fonts/ariblk/ariblk.eot.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
