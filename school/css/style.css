@@ -198,7 +198,7 @@ li {
 	display: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1450px) {
   .main_nav a:not(:first-child) {display: none;}
   .main_nav a.icon {
     float: right;
@@ -209,7 +209,7 @@ li {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1450px) {
   .main_nav.responsive {position: relative;}
   .main_nav.responsive .icon {
     position: absolute;
