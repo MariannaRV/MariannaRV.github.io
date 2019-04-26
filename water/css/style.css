@@ -141,6 +141,11 @@ li {
 		right: 195px;
 	}
 }
+ @media screen and (max-width: 1370px) {
+	.contacts {
+		right: 115px;
+	}
+}
  @media screen and (max-width: 1200px) {
 	.main_nav {
 		margin-left: 500px;
@@ -457,11 +462,20 @@ li {
 @media screen and (max-width: 1550px) {
 	.top__image--one img{
 		left: 35px;
+		top: 215px;
 	}
 	.top__banner--text {
 		font-size: 31px;
 		padding-left: 54px;
 		padding-right: 121px;
+	}
+	.top__image--two img {
+		right: 2px;
+	}
+}
+@media screen and (max-width: 1310px) {
+	.top__banner--text {
+		padding-left: 70px;
 	}
 }
 @media screen and (max-width: 1200px) {
