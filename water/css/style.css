@@ -45,6 +45,15 @@ li {
 		background-position: -565px top;
 	}
 }
+@media screen and (max-width: 380px) {
+	.top {
+		height: 610px;
+	}
+	 .top__bg {
+		background: url('../img/bg-1m.png') no-repeat -500px top;
+		height: 645px;
+	}
+}
 @media screen and (max-width: 320px) {
 	.top {
 		height: 640px;
@@ -433,6 +442,7 @@ li {
 }
 .top__banner--text {
 	font-size: 48px;
+	font-weight: bold;
 	width: 760px;
 	margin-top: 185px;
 }
@@ -527,7 +537,10 @@ li {
 }
 @media screen and (max-width: 380px) {
 	.top__image--two img{
-		top: 340px;
+		top: 195px;
+	}
+	.top__banner--text {
+		margin-top: 10px;
 	}
 }
 @media screen and (max-width: 320px) {
