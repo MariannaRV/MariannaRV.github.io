@@ -1148,7 +1148,7 @@ li {
 		margin-top: 15px;
 	}
 	.action__text p {
-		font-size: 21px;
+		font-size: 20px;
 	}
 	.action__text--large span {
 		font-size: 45px;
@@ -1188,18 +1188,18 @@ li {
 		right: 38%;
 	}
 	.action__text--large::before {
-		top: 136px;
+		top: 100px;
 		right: 10%;
 	}
 	.action__text--large::after {
-		top: 286px;
+		top: 240px;
 		right: 10%;
 	}
 	.action__img img {
 		margin-left: 0;
 	}
 	.action__text p {
-		font-size: 20px;
+		font-size: 18px;
 	}
 }
 @media screen and (max-width: 310px) {
