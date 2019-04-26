@@ -454,14 +454,14 @@ li {
 	max-width: 100%;
 	z-index: -1;
 }
-@media screen and (max-width: 1480px) {
+@media screen and (max-width: 1550px) {
 	.top__image--one img{
 		left: 35px;
 	}
 	.top__banner--text {
-		font-size: 43px;
-		padding-left: 70px;
-		padding-right: 170px;
+		font-size: 31px;
+		padding-left: 54px;
+		padding-right: 121px;
 	}
 }
 @media screen and (max-width: 1200px) {
