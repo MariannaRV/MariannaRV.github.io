@@ -789,8 +789,8 @@ li {
 	}
 	.delivery__item--img img {
 		top: 10px;
-		left: -165px;
-		min-width: 700px;
+		left: -100px;
+		min-width: 638px;
 	}
 	.delivery__item--phone a {
 		font-size: 26px;
