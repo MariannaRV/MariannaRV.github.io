@@ -79,7 +79,7 @@ li {
     display: block;
   	text-align: center;
   	text-transform: uppercase;
-  	font-weight: 200;
+  	font-weight: 600;
 	padding: 25px 6px 7px 6px;
   	text-decoration: none;
   	font-size: 17px;
@@ -442,7 +442,8 @@ li {
 }
 .top__banner--text {
 	font-size: 48px;
-	font-weight: bold;
+	font-weight: 600;
+	text-transform: uppercase;
 	width: 760px;
 	margin-top: 185px;
 }
@@ -455,10 +456,10 @@ li {
 }
 @media screen and (max-width: 1480px) {
 	.top__image--one img{
-		left: 10px;
+		left: 35px;
 	}
 	.top__banner--text {
-		font-size: 45px;
+		font-size: 43px;
 		padding-left: 70px;
 		padding-right: 170px;
 	}
