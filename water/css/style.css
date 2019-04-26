@@ -955,6 +955,9 @@ li {
 		top: 325px;
 		width: 345px;
 	}
+	.delivery__item--phone a {
+		margin-left: 65px;
+	}
 }
 @media screen and (max-width: 350px) {
 	.delivery__item--img img {
