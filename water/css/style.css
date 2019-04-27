@@ -108,7 +108,7 @@ li {
 	display: none;
 	position: absolute;
 	top: 70px;
-	right: 395px;
+	right: 307px;
 	background: #fff;
 	border-radius: 20px;
 	border: 1px solid#ccc;
@@ -135,7 +135,11 @@ li {
  	margin-left: -2px;
  	margin-bottom: 18px;
  }
-
+ @media screen and (max-width: 1700px) {
+	.contacts {
+		right: 270px;
+	}
+}
  @media screen and (max-width: 1550px) {
 	.contacts {
 		right: 195px;
@@ -146,6 +150,11 @@ li {
 		right: 115px;
 	}
 }
+ @media screen and (max-width: 1280px) {
+	.contacts {
+		right: 60px;
+	}
+}
  @media screen and (max-width: 1200px) {
 	.main_nav {
 		margin-left: 500px;
@@ -153,7 +162,7 @@ li {
 }
 @media screen and (max-width: 1100px) {
 	.main_nav {
-		margin-left: 440px;
+		margin-left: 421px;
 	}
 }
  @media screen and (max-width: 996px) {
@@ -376,7 +385,7 @@ li {
 .close {
 	position: absolute;
 	top: 485px;
-	right: 45%;
+	right: 46%;
 }
 
 @media screen and (max-width: 1200px) {
@@ -446,7 +455,7 @@ li {
 	height: 181px;
 }
 .top__banner--text {
-	font-size: 48px;
+	font-size: 47px;
 	font-weight: 600;
 	text-transform: uppercase;
 	width: 760px;
@@ -459,9 +468,14 @@ li {
 	max-width: 100%;
 	z-index: -1;
 }
+@media screen and (max-width: 1680px) {
+	.top__banner--text {
+		font-size: 42px;
+	}
+}
 @media screen and (max-width: 1550px) {
 	.top__image--one img{
-		left: 35px;
+		left: 25px;
 		top: 215px;
 	}
 	.top__banner--text {
@@ -473,9 +487,25 @@ li {
 		right: 2px;
 	}
 }
+@media screen and (max-width: 1400px) {
+	.top__banner--text {
+		padding-left: 70px;
+		font-size: 34px;
+	}
+	.top__image--two img {
+		right: 0;
+		top: 25px;
+		width: 670px;
+	}
+}
 @media screen and (max-width: 1310px) {
 	.top__banner--text {
 		padding-left: 70px;
+	}
+}
+@media screen and (max-width: 1310px) {
+	.top__banner--text {
+		padding-left: 90px;
 	}
 }
 @media screen and (max-width: 1200px) {
@@ -483,16 +513,36 @@ li {
 		display: none;
 	}
 	.top__banner--text {
+		font-size: 37px;
 		padding-left: 0;
-		padding-right: 295px;
-		margin-top: 105px;
+		padding-right: 120px;
+		margin-top: 150px;
+	}
+}
+@media screen and (max-width: 1100px) {
+	.top__banner--text {
+		font-size: 34px;
+	}
+	.top__image--two img {
+		top: 35px;
+		width: 628px;
+	}
+}
+@media screen and (max-width: 1040px) {
+	.top__banner--text {
+		font-size: 32px;
 	}
 }
 @media screen and (max-width: 996px) {
 	.top__image--two img{
-		top: 15px;
-		right: 27px;
-		width: 650px;
+		top: 39px;
+		right: 1px;
+		width: 590px;
+	}
+}
+@media screen and (max-width: 970px) {
+	.top__banner--text {
+		font-size: 30px;
 	}
 }
 @media screen and (max-width: 900px) {
@@ -511,19 +561,28 @@ li {
 }
 @media screen and (max-width: 768px) {
 	.top__banner--text {
-		margin-left: 0;
 		font-size: 31px;
-		width: 100%; 
+		width: 100%;
+		margin-left: 0;
+		margin-top: 84px; 
+		text-align: center;
+		padding-right: 0;
+	}
+	.top__image--two img{
+		right: 95px;
+		top: 200px;
+		width: 555px;
 	}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 630px) {
 	.top__image--two img{
-		right: 10px;
+		right: 0;
 	}
 }
 @media screen and (max-width: 585px) {
 	.top__image--two img{
-		top: 180px;
+		top: 220px;
+		width: 520px;
 	}
 }
 @media screen and (max-width: 468px) {
@@ -792,7 +851,7 @@ li {
 }
 @media screen and (max-width: 1800px) {
 	.delivery__item--img img {
-		top: 0;
+		top: 40зчж;
 		left: -220px;
 		min-width: 735px;
 	}
@@ -806,11 +865,17 @@ li {
 	}
 	.delivery__item--img img {
 		top: 10px;
-		left: -100px;
-		min-width: 638px;
+		left: -90px;
+		min-width: 625px;
 	}
 	.delivery__item--phone a {
 		font-size: 26px;
+	}
+}
+@media screen and (max-width: 1370px) {
+	.delivery__item--img img {
+		left: -65px;
+		min-width: 600px;
 	}
 }
 @media screen and (max-width: 1310px) {
@@ -924,8 +989,6 @@ li {
 	.delivery__item--phone .item-head {
 		text-align: center;
 	}
-}
-@media screen and (max-width: 675px) {
 	.delivery__item--img img {
 		width: 495px;
 		left: 85px;
@@ -1071,6 +1134,11 @@ li {
 }
 .action__img img {
 	max-width: 100%;
+}
+@media screen and (max-width: 1400px) {
+	.action .item-head::after {
+		right: 47%;
+	}
 }
 @media screen and (max-width: 1200px) {
 	.action__text p {
